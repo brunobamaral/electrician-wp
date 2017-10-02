@@ -1,0 +1,22 @@
+{
+  "name": "electrician-wp",
+  "description": "Simple theme for electrician in wordpress. To Amaral Serviços elétricos",
+  "main": "index.js",
+  "authors": [
+    "brunobamaral"
+  ],
+  "license": "GPL-2.0",
+  "homepage": "https://github.com/brunobamaral/electrician-wp",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "gulp-stylus": "^2.6.0",
+    "gulp": "^3.9.1"
+  }
+}

@@ -7,5 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "brunobamaral",
-  "license": "GPL-2.0"
+  "license": "GPL-2.0",
+  "devDependencies": {
+    "bower": "^1.8.2"
+  }
 }
