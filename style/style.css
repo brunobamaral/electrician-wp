@@ -1,6 +1,6 @@
 @charset 'UTF-8';
 /* box */
-#box{ position:relative;width:100%; }
+#box{ position:relative;width:100%;margin:0;background:url('../image/fundo.jpg') center top; }
 
 /* news */
 #box .news .wrapper{ border:0.3em solid #000000;margin-top:0.3em 0;background-color:#2c302f; }
@@ -8,6 +8,7 @@
 #box .news .wrapper .label-content{ background-color:#FECB02;font-style:italic; }
 
 /* header */
+#box .header{ margin-top:1.5em; }
 #box .header .wrapper{ background-color:#2c302f; }
 #box .header .wrapper .logo{ margin:0.3em 0; }
 #box .header .wrapper .logo img{ width:100%; }
