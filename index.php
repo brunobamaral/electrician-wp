@@ -12,7 +12,7 @@
 		<meta name="keywords" content="" />
 		<!-- carregamento dos styles -->
 		<link rel="icon" type="image/x-icon" href="<?=get_template_directory_uri();?>/asset/image/favicon.png" />
-		<link rel="stylesheet" type="text/css" href="style/reset.css" media="all" />
+		<!--<link rel="stylesheet" type="text/css" href="style/reset.css" media="all" />-->
 		<link rel="stylesheet" type="text/css" href="<?=get_template_directory_uri();?>/asset/bower_components/font-awesome/css/font-awesome.min.css" media="all" />
 		<link rel="stylesheet" type="text/css" href="<?=get_template_directory_uri();?>/asset/bower_components/bootstrap/dist/css/bootstrap.min.css" media="all" />
 		<link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url');?>" media="all" />
@@ -30,7 +30,7 @@
 				<div class="row">
 					<div class="col-xs-12 col-md-12 col-lg-10 col-lg-offset-1 wrapper">
 						<h1 class="col-xs-9 col-md-3 col-lg-4 logo">
-							<a href="#"><img src="<?= get_template_directory_uri();?>/asset/image/logo.png" alt="" /></a>
+							<a href="#"><img src="<?=get_template_directory_uri();?>/asset/image/logo.png" alt="" /></a>
 						</h1>
 						<button type="button" class="navbar-toggle collapsed mobile-menu" data-toggle="collapse" data-target="#main-menu" aria-expanded="false">
 							<span class="sr-only">Toggle navigation</span>
@@ -83,17 +83,17 @@
 							<div class="carousel-inner" role="listbox">
 								<div class="item active">
 									<a href="#">
-										<img class="" src="image/carrosel/banner-1.jpg" alt="" />
+										<img class="" src="<?=get_template_directory_uri();?>/asset/image/carrosel/banner-1.jpg" alt="" />
 									</a>
 								</div>
 								<div class="item">
 									<a href="#">
-										<img class="" src="image/carrosel/banner-2.jpg" alt="" />
+										<img class="" src="<?=get_template_directory_uri();?>/asset/image/carrosel/banner-2.jpg" alt="" />
 									</a>
 								</div>
 								<div class="item">
 									<a href="#">
-										<img class="" src="image/carrosel/banner-3.jpg" alt="" />
+										<img class="" src="<?=get_template_directory_uri();?>/asset/image/carrosel/banner-3.jpg" alt="" />
 									</a>
 								</div>
 								<a href="#carrosel" class="left carousel-control" role="button" data-slide="prev">
